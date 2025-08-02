@@ -1,0 +1,83 @@
+MCU Box Office Dashboard
+
+This project provides a comprehensive guide to building a Power BI dashboard for analyzing Marvel Cinematic Universe (MCU) box office performance. The dashboard is designed to be clean, professional, and visually engaging, using a custom Marvel-themed color palette.
+
+1. Project Goal
+The primary objective is to create an interactive Power BI dashboard that allows users to explore key financial and critical metrics for MCU films. The dashboard is built to provide insights into box office performance, production budgets, and audience reception.
+
+2. Required Data
+The dashboard is built using the mcu_box_office.csv dataset. This file contains the following key columns:
+
+movie_title: The name of the film.
+
+mcu_phase: The MCU phase the film belongs to.
+
+release_date: The release date of the film.
+
+production_budget: The production budget in USD.
+
+domestic_box_office: The domestic box office gross in USD.
+
+worldwide_box_office: The worldwide box office gross in USD.
+
+tomato_meter: The Rotten Tomatoes "Tomato Meter" score.
+
+audience_score: The Rotten Tomatoes audience score.
+
+3. Key Performance Indicators (KPIs)
+The following measures were created to provide high-level insights into the data:
+
+Total Worldwide Box Office
+
+Total Production Budget
+
+Average ROI (Return on Investment)
+
+Average Tomato Meter Score
+
+Total Movies
+
+4. Custom Marvel Color Theme
+A custom theme was created to give the dashboard a distinctive Marvel look and feel. To apply this theme, save the following JSON code as MarvelTheme.json and import it into Power BI via the View tab.
+
+Palette:
+
+Primary (Marvel Red): #E42D2D
+
+Secondary (Gold): #FFD700
+
+Accent (Iron Man Blue): #0047AB
+
+Background (Dark Gray): #1D263B
+
+Text & Gridlines (White): #FFFFFF
+
+
+
+5. Dashboard Visualizations & Layout
+The dashboard is organized into the following sections:
+
+Header: Displays a title and branding elements.
+
+KPI Cards: A row of cards at the top showing the key measures.
+
+Slicers: A left-hand panel with slicers for filtering by mcu_phase and movie_title.
+
+Main Charts:
+
+Box Office Over Time: A line chart showing worldwide box office trends.
+
+Movie Performance: A bar chart ranking movies by worldwide box office.
+
+Budget vs. Return: A scatter plot to analyze film profitability.
+
+Detailed Table: A table providing a comprehensive view of all data.
+
+6. Formatting & Style
+The dashboard uses a dark gray background (#1D263B).
+
+All visuals have rounded corners with a subtle border.
+
+Text and labels are white for high contrast.
+
+Visual interactions are enabled to allow for cross-filtering.
